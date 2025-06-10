@@ -16,9 +16,9 @@
 
 spring:
   datasource:
-    url: ${postgresql://mydb_hisv_user:b1vnN8ACTQSuctpLt5F4Qm149BYznVjY@dpg-d14858i4d50c7386v12g-a.oregon-postgres.render.com/mydb_hisv}
-    username: ${mydb_hisv_user}
-    password: ${b1vnN8ACTQSuctpLt5F4Qm149BYznVjY}
+    url: jdbc:postgresql://mydb_hisv_user:b1vnN8ACTQSuctpLt5F4Qm149BYznVjY@dpg-d14858i4d50c7386v12g-a.oregon-postgres.render.com/mydb_hisv
+    username: mydb_hisv_user
+    password: b1vnN8ACTQSuctpLt5F4Qm149BYznVjY
     driver-class-name: org.postgresql.Driver
 
   jpa:
