@@ -16,9 +16,9 @@
 
 spring:
   datasource:
-    url: jdbc:postgresql://mydb_hisv_user:b1vnN8ACTQSuctpLt5F4Qm149BYznVjY@dpg-d14858i4d50c7386v12g-a.oregon-postgres.render.com:5432/mydb_hisv
-    username: mydb_hisv_user
-    password: b1vnN8ACTQSuctpLt5F4Qm149BYznVjY
+    url: jdbc:postgresql://pg-3d11ed04-tamezelv-a7ae.c.aivencloud.com:21032/defaultdb?ssl=require&user=avnadmin&password=AVNS_POuujMjNruSYQDRXBbM
+    username: avnadmin
+    password: AVNS_POuujMjNruSYQDRXBbM
     driver-class-name: org.postgresql.Driver
 
   jpa:
@@ -29,7 +29,8 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
-
+server:
+  port: 8080
 application:
   security:
     jwt:
