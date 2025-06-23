@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # --- Build stage ---
-FROM eclipse-temurin:17-jdk AS build
+FROM openjdk:17-jdk-alpine AS build
 WORKDIR /app
 
 # Copy Maven wrapper and project files for dependency resolution
